@@ -1,0 +1,55 @@
+{
+  "amex": {
+    "display_name": "American Express (AMEX)",
+    "country": "Global",
+    "notes": "Often higher merchant fees; good for premium customers.",
+    "recommended_for": "Premium purchases"
+  },
+  "visa": {
+    "display_name": "Visa",
+    "country": "Global",
+    "notes": "Widely accepted; merchant rate varies with card type.",
+    "recommended_for": "General payments"
+  },
+  "mastercard": {
+    "display_name": "Mastercard",
+    "country": "Global",
+    "notes": "Widely accepted; similar ranges to Visa.",
+    "recommended_for": "General payments"
+  },
+  "discover": {
+    "display_name": "Discover",
+    "country": "Primarily US",
+    "notes": "Less global coverage than Visa/Mastercard."
+  },
+  "rupay": {
+    "display_name": "RuPay",
+    "country": "India",
+    "notes": "Local Indian network, typically low-cost."
+  },
+  "bank transfer": {
+    "display_name": "Bank Wire Transfer",
+    "country": "Global",
+    "notes": "Preferable for high-value transfers."
+  },
+  "paypal": {
+    "display_name": "PayPal",
+    "country": "Global",
+    "notes": "Convenient for online payments, includes fixed fee."
+  },
+  "stripe": {
+    "display_name": "Stripe",
+    "country": "Global",
+    "notes": "Payment processor; pass-through card fees plus fixed cents."
+  },
+  "upi": {
+    "display_name": "UPI",
+    "country": "India",
+    "notes": "Instant bank payments, usually very low cost."
+  },
+  "paytm": {
+    "display_name": "Paytm",
+    "country": "India",
+    "notes": "Popular mobile wallet and PSP in India."
+  }
+}
