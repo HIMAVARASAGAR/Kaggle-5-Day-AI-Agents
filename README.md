@@ -1,7 +1,3 @@
-Perfect — since you’re adding it directly on GitHub, here’s a ready-to-paste version formatted for GitHub’s online editor (works perfectly with Markdown).
-
-Just click “Add a README” → paste this entire block → click Commit changes.
-
 # 🧠 Kaggle x Google - 5 Days of AI Agents
 
 Welcome to my personal repository for the **Kaggle x Google "5 Days of AI Agents"** course.  
@@ -124,7 +120,4 @@ This repository is based on:
 “Agents are not just tools — they’re the next layer of intelligence.”
 — Kaggle x Google AI, 2025
 
----
-
-Once you commit it, your GitHub page will instantly render this beautifully (with formatted code blocks, headers, and tables).  
-Would you like me to now add **badges** (e.g. Python version, Gemini API, Kaggle course link, stars, etc.) at the top for visual appeal?
+⸻
