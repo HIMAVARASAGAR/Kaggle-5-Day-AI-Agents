@@ -1,0 +1,128 @@
+[
+  {
+    "method": "amex",
+    "type": "tiered",
+    "description": "American Express — merchant rates vary by category; demo tiers shown",
+    "tiers": [
+      { "low": 0, "high": 1000, "rate": 0.025 },
+      { "low": 1000, "high": null, "rate": 0.04 }
+    ]
+  },
+
+  {
+    "method": "visa",
+    "type": "flat",
+    "description": "Representative merchant rate for Visa (varies by card & merchant)",
+    "flat_rate": 0.025
+  },
+
+  {
+    "method": "mastercard",
+    "type": "flat",
+    "description": "Representative merchant rate for Mastercard (varies by card & merchant)",
+    "flat_rate": 0.029
+  },
+
+  {
+    "method": "discover",
+    "type": "flat",
+    "description": "Representative merchant rate for Discover (approximate)",
+    "flat_rate": 0.03
+  },
+
+  {
+    "method": "jcb",
+    "type": "flat",
+    "description": "Representative merchant rate for JCB (approximate)",
+    "flat_rate": 0.03
+  },
+
+  {
+    "method": "unionpay",
+    "type": "flat",
+    "description": "Representative merchant rate for UnionPay (approximate)",
+    "flat_rate": 0.028
+  },
+
+  {
+    "method": "rupay",
+    "type": "flat",
+    "description": "Representative merchant rate for RuPay (India) — varies by merchant/program",
+    "flat_rate": 0.017
+  },
+
+  {
+    "method": "gold debit card",
+    "type": "flat",
+    "description": "Example branded debit card rate",
+    "flat_rate": 0.035
+  },
+
+  {
+    "method": "bank transfer",
+    "type": "flat",
+    "description": "Typical bank transfer/wire fee used as low-fee alternative (demo)",
+    "flat_rate": 0.01
+  },
+
+  {
+    "method": "paypal",
+    "type": "flat_plus_fixed",
+    "description": "PayPal merchant rates — percentage + fixed fee in USD (demo values)",
+    "flat_rate": 0.0349,
+    "fixed_fee_usd": 0.49
+  },
+
+  {
+    "method": "stripe",
+    "type": "flat_plus_fixed",
+    "description": "Stripe standard online rate (demo) — percentage + fixed fee in USD",
+    "flat_rate": 0.029,
+    "fixed_fee_usd": 0.30
+  },
+
+  {
+    "method": "square",
+    "type": "flat_plus_fixed",
+    "description": "Square common e-commerce rate (demo) — percentage + fixed fee in USD",
+    "flat_rate": 0.029,
+    "fixed_fee_usd": 0.30
+  },
+
+  {
+    "method": "venmo",
+    "type": "flat_plus_fixed",
+    "description": "Venmo / PayPal checkout style rate (demo)",
+    "flat_rate": 0.0349,
+    "fixed_fee_usd": 0.49
+  },
+
+  {
+    "method": "apple pay",
+    "type": "flat",
+    "description": "Apple Pay uses underlying card networks; approximate merchant rate used",
+    "flat_rate": 0.029
+  },
+
+  {
+    "method": "google pay",
+    "type": "flat",
+    "description": "Google Pay uses underlying card networks; approximate merchant rate used",
+    "flat_rate": 0.029
+  },
+
+  {
+    "method": "paytm",
+    "type": "flat_plus_fixed",
+    "description": "Example India mobile wallet / PSP rate (demo)",
+    "flat_rate": 0.018,
+    "fixed_fee_usd": 0.00
+  },
+
+  {
+    "method": "upi",
+    "type": "flat",
+    "description": "India UPI (low cost) - demo value",
+    "flat_rate": 0.005
+  }
+]
